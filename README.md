@@ -30,7 +30,7 @@ An example configuration that adds support for [Home Assistant](https://home-ass
 
 ## Questions?
 
-Please file an issue or send an email to pal@urcomputeringpal.com!
+Please [file an issue](https://github.com/urcomputeringpal/yamburger/issues/new/choose)! If you'd prefer to reach out in private, please send an email to pal@urcomputeringpal.com.
 
 ## Hacking
 
