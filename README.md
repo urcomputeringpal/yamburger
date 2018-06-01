@@ -1,5 +1,13 @@
 # YAMBURGER
 
+## Overview
+
+> Indentation got you down? Semicolons in the wrong spot? That's a YAMBURGER!
+
+YAMBURGER is a YAML-linting GitHub App. Install it on any repository that contains YAML, and it'll point out *burgers* on any Pull Requests that you open like so:
+
+![](https://user-images.githubusercontent.com/47/40736435-46a43366-63fb-11e8-816e-0261c9ac05e2.png)
+
 ## Getting started
 
 The authors of YAMBURGER maintain a hosted version of the source code you see here. [Install it today!](https://github.com/apps/yamburger)
