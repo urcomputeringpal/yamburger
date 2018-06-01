@@ -3,7 +3,8 @@ Raven.config(process.env.SENTRY_DSN).install()
 const Yamburger = require('./lib/yamburger')
 
 module.exports = (robot) => {
-  robot.log('Heyo')
+  const app = robot.route()
+  app.get('/', (req, res, next) => res.redirect('https://github.com/urcomputeringpal/yamburger'))
 
   const events = [
     'check_suite.requested',
