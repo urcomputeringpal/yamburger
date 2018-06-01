@@ -14,7 +14,7 @@ The authors of YAMBURGER maintain a hosted version of the source code you see he
 
 ## Configuration
 
-YAMBURGER support validating YAML containing custom tags (like `!tag`). To configure the custom tags that are valid for your repository, add a `.github/yamburger.yaml` file you repository like so:
+YAMBURGER supports validating YAML containing custom tags (like `!tag`). To configure the custom tags that are valid for your repository, add a `.github/yamburger.yaml` file to your repository like so:
 
 ```yaml
 tags:
