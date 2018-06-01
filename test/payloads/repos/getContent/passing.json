@@ -1,0 +1,57 @@
+{
+  "data": {
+    "name": "test.yaml",
+    "path": "kubernetes/test/deployments/test.yaml",
+    "sha": "98480e6a660c40aa0e316261b4803f3da5fb12f1",
+    "size": 581,
+    "url":
+      "https://api.github.com/repos/jnewland/rancho-de-newland/contents/kubernetes/test/deployments/test.yaml?ref=024f66a2f4c95124b7b6886e7ecf379d8882a950",
+    "html_url":
+      "https://github.com/jnewland/rancho-de-newland/blob/024f66a2f4c95124b7b6886e7ecf379d8882a950/kubernetes/test/deployments/test.yaml",
+    "git_url":
+      "https://api.github.com/repos/jnewland/rancho-de-newland/git/blobs/98480e6a660c40aa0e316261b4803f3da5fb12f1",
+    "download_url":
+      "https://raw.githubusercontent.com/jnewland/rancho-de-newland/024f66a2f4c95124b7b6886e7ecf379d8882a950/kubernetes/test/deployments/test.yaml?token=SECRET%3D%3D",
+    "type": "file",
+    "content":
+      "YXBpVmVyc2lvbjogYXBwcy92MQpraW5kOiBEZXBsb3ltZW50Cm1ldGFkYXRh\nOgogIG5hbWU6IGtkZXBsb3kKICBuYW1lc3BhY2U6IGtkZXBsb3kKICBsYWJl\nbHM6CiAgICBhcHA6IGtkZXBsb3kKICAgIGZvbzogYmFyegpzcGVjOgogIHJl\ncGxpY2FzOiAyCiAgc2VsZWN0b3I6CiAgICBtYXRjaExhYmVsczoKICAgICAg\nYXBwOiBrZGVwbG95CiAgdGVtcGxhdGU6CiAgICBtZXRhZGF0YToKICAgICAg\nbGFiZWxzOgogICAgICAgIGFwcDoga2RlcGxveQogICAgICBhbm5vdGF0aW9u\nczoKICAgICAgICB2OiAnMTknCiAgICBzcGVjOgogICAgICBjb250YWluZXJz\nOgogICAgICAtIG5hbWU6IGtkZXBsb3kKICAgICAgICBlbnY6CiAgICAgICAg\nICAtIG5hbWU6IEFQUF9JRAogICAgICAgICAgICB2YWx1ZTogIjExMDkyIgog\nICAgICAgIGVudkZyb206CiAgICAgICAgLSBzZWNyZXRSZWY6CiAgICAgICAg\nICAgIG5hbWU6IGtkZXBsb3kKICAgICAgICAjIGFwcGx5aW5nIHRoaXMgc2hv\ndWxkIGdldCBtYXN0ZXIKICAgICAgICBpbWFnZTogZ2NyLmlvL3JhbmNoby1k\nZS1uZXdsYW5kL2dpdGh1Yi1qbmV3bGFuZC1rZGVwbG95Om1hc3Rlcgo=\n",
+    "encoding": "base64",
+    "_links": {
+      "self":
+        "https://api.github.com/repos/jnewland/rancho-de-newland/contents/kubernetes/test/deployments/test.yaml?ref=024f66a2f4c95124b7b6886e7ecf379d8882a950",
+      "git":
+        "https://api.github.com/repos/jnewland/rancho-de-newland/git/blobs/98480e6a660c40aa0e316261b4803f3da5fb12f1",
+      "html":
+        "https://github.com/jnewland/rancho-de-newland/blob/024f66a2f4c95124b7b6886e7ecf379d8882a950/kubernetes/test/deployments/test.yaml"
+    }
+  },
+  "meta": {
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers":
+      "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+    "cache-control": "private, max-age=60, s-maxage=60",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "content-security-policy": "default-src 'none'",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Thu, 31 May 2018 16:10:01 GMT",
+    "etag": "W/\"98480e6a660c40aa0e316261b4803f3da5fb12f1\"",
+    "last-modified": "Thu, 31 May 2018 16:09:57 GMT",
+    "referrer-policy":
+      "origin-when-cross-origin, strict-origin-when-cross-origin",
+    "server": "GitHub.com",
+    "status": "200 OK",
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "transfer-encoding": "chunked",
+    "vary": "Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "deny",
+    "x-github-media-type": "github.v3; format=json",
+    "x-github-request-id": "A82C:5B49:2D988CB:3A31A31:5B101E59",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4994",
+    "x-ratelimit-reset": "1527784277",
+    "x-runtime-rack": "0.084711",
+    "x-xss-protection": "1; mode=block"
+  }
+}

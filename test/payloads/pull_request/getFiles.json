@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "sha": "98480e6a660c40aa0e316261b4803f3da5fb12f1",
+      "filename": "kubernetes/test/deployments/test.yaml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url":
+        "https://github.com/jnewland/rancho-de-newland/blob/024f66a2f4c95124b7b6886e7ecf379d8882a950/kubernetes/test/deployments/test.yaml",
+      "raw_url":
+        "https://github.com/jnewland/rancho-de-newland/raw/024f66a2f4c95124b7b6886e7ecf379d8882a950/kubernetes/test/deployments/test.yaml",
+      "contents_url":
+        "https://api.github.com/repos/jnewland/rancho-de-newland/contents/kubernetes/test/deployments/test.yaml?ref=024f66a2f4c95124b7b6886e7ecf379d8882a950",
+      "patch":
+        "@@ -5,6 +5,7 @@ metadata:\n   namespace: test\n   labels:\n     app: test\n+    foo: barz\n spec:\n   replicas: 2\n   selector:"
+    }
+  ],
+  "meta": {
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers":
+      "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+    "cache-control": "private, max-age=60, s-maxage=60",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "content-security-policy": "default-src 'none'",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Thu, 31 May 2018 16:10:00 GMT",
+    "etag": "W/\"42eeb299d9e36fd007767112a44101a2\"",
+    "last-modified": "Thu, 31 May 2018 16:09:58 GMT",
+    "referrer-policy":
+      "origin-when-cross-origin, strict-origin-when-cross-origin",
+    "server": "GitHub.com",
+    "status": "200 OK",
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "transfer-encoding": "chunked",
+    "vary": "Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "deny",
+    "x-github-media-type": "github.v3; format=json",
+    "x-github-request-id": "98DA:5B48:2B5703B:37845E2:5B101E58",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4995",
+    "x-ratelimit-reset": "1527784277",
+    "x-runtime-rack": "0.129737",
+    "x-xss-protection": "1; mode=block"
+  }
+}

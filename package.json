@@ -1,0 +1,35 @@
+{
+  "name": "YAMBURGER",
+  "version": "1.0.0",
+  "description": "",
+  "author": "jnewland <jesse@jnewland.com>",
+  "license": "ISC",
+  "repository": "your-repository-name",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "jest && standard",
+    "standard": "standard --fix",
+    "now-start": "PRIVATE_KEY=$(echo $PRIVATE_KEY_BASE64 | base64 -d) npm start"
+  },
+  "dependencies": {
+    "probot": "git+https://github.com/jnewland/probot#8ff179b70ec6cb4762cda9c3e15217ea29645b1b",
+    "raven": "^2.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.0",
+    "jest": "^21.2.1",
+    "smee-client": "^1.0.1",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": "^10"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "now": {
+    "alias": "yamburger.now.sh"
+  }
+}

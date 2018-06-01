@@ -1,0 +1,6 @@
+#!/bin/bash
+set -ex
+
+now -E --npm --public
+now alias
+now rm YAMBURGER --safe -y
