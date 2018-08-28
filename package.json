@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "js-yaml": "^3.11.0",
-    "probot": "git+https://github.com/jnewland/probot#8ff179b70ec6cb4762cda9c3e15217ea29645b1b",
+    "probot": "git+https://github.com/jnewland/probot#46a5c9a8741716640d9e275d193d53ac2de89320",
     "raven": "^2.6.2"
   },
   "devDependencies": {
