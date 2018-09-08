@@ -6,7 +6,7 @@
 
 YAMBURGER is a YAML-linting GitHub App. Install it on any repository that contains YAML, and it'll point out *burgers* on any Pull Requests that you open like so:
 
-![](https://user-images.githubusercontent.com/47/40852374-817dab06-6587-11e8-80c8-06b89b8a8546.png)
+![](https://urcomputeringpal.com/assets/yamburger.gif)
 
 ## Getting started
 
