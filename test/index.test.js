@@ -1,14 +1,14 @@
-const { createRobot } = require('probot')
-const app = require('..')
+const { Application } = require('probot')
+const Yamburger = require('..')
 const HttpError = require('@octokit/rest/lib/request/http-error')
 
 describe('yamburger', () => {
-  let robot
+  let app
   let github
 
   beforeEach(() => {
-    robot = createRobot()
-    app(robot)
+    app = new Application()
+    app.load(Yamburger)
   })
 
   describe('check suite requests', () => {
@@ -24,12 +24,12 @@ describe('yamburger', () => {
         }
       }
 
-      robot.auth = () => Promise.resolve(github)
+      app.auth = () => Promise.resolve(github)
     })
 
     it('ignores check requests not associated with a PR', async () => {
       const payload = require('./payloads/check_suite/requested/no_pulls.json')
-      await robot.receive({ event: 'check_suite', payload })
+      await app.receive({ event: 'check_suite', payload })
       expect(github.checks.create).toHaveBeenCalled()
       expect(github.checks.create.mock.calls[0][0].conclusion).toBe('neutral')
     })
@@ -67,12 +67,12 @@ describe('yamburger', () => {
         }
       }
 
-      robot.auth = () => Promise.resolve(github)
+      app.auth = () => Promise.resolve(github)
     })
 
     it('kicks off a check when PRs are opened', async () => {
       const payload = require('./payloads/pull_request/opened.json')
-      await robot.receive({ event: 'pull_request', payload })
+      await app.receive({ event: 'pull_request', payload })
       expect(github.checks.create).toHaveBeenCalled()
       expect(github.checks.create.mock.calls[0][0].status).toBe('in_progress')
       expect(github.pullRequests.getFiles).toHaveBeenCalled()
@@ -114,12 +114,12 @@ describe('yamburger', () => {
         }
       }
 
-      robot.auth = () => Promise.resolve(github)
+      app.auth = () => Promise.resolve(github)
     })
 
     it('kicks off a check when PRs are opened', async () => {
       const payload = require('./payloads/pull_request/opened.json')
-      await robot.receive({ event: 'pull_request', payload })
+      await app.receive({ event: 'pull_request', payload })
       expect(github.checks.create).toHaveBeenCalled()
       expect(github.checks.create.mock.calls[0][0].status).toBe('in_progress')
       expect(github.pullRequests.getFiles).toHaveBeenCalled()
@@ -163,12 +163,12 @@ describe('yamburger', () => {
         }
       }
 
-      robot.auth = () => Promise.resolve(github)
+      app.auth = () => Promise.resolve(github)
     })
 
     it('kicks off a check when PRs are opened', async () => {
       const payload = require('./payloads/pull_request/opened.json')
-      await robot.receive({ event: 'pull_request', payload })
+      await app.receive({ event: 'pull_request', payload })
       expect(github.checks.create).toHaveBeenCalled()
       expect(github.checks.create.mock.calls[0][0].status).toBe('in_progress')
       expect(github.pullRequests.getFiles).toHaveBeenCalled()
