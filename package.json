@@ -12,7 +12,7 @@
     "now-start": "PRIVATE_KEY=$(echo $PRIVATE_KEY_BASE64 | base64 -d) npm start"
   },
   "dependencies": {
-    "js-yaml": "^3.11.0",
+    "js-yaml": "^3.13.1",
     "probot": "^7.3.1",
     "raven": "^2.6.2"
   },
