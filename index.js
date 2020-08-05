@@ -1,5 +1,8 @@
-const Raven = require('raven')
-Raven.config(process.env.SENTRY_DSN).install()
+if (process.env.SENTRY_DSN) {
+  const Raven = require('raven')
+  Raven.config(process.env.SENTRY_DSN).install()
+}
+
 const Yamburger = require('./lib/yamburger')
 
 module.exports = (robot) => {
